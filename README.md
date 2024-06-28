@@ -1,78 +1,55 @@
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
+# Esturide (client)
+![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+[![Build with EAS](https://img.shields.io/badge/Build-3275E7.svg?style=for-the-badge&logo=EXPO&labelColor=000&logoColor=FFF)](https://docs.expo.dev/build/introduction/)
 
-<h1 align="center">
-  Chromatic's Intro to Storybook React Native template
-</h1>
+This repository houses the source code for the client application, which interacts with the server to provide a complete experience to the end user. The application is developed using the latest technologies and frameworks, ensuring optimal performance, intuitive interface and smooth user experience.
 
-This template ships with the main React Native and Storybook configuration files you'll need to get up and running fast.
+## Platforms
 
-## 🚅 Quick start
+[![supports iOS](https://img.shields.io/badge/iOS-999999.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff)](https://github.com/expo/expo)
+[![supports Android](https://img.shields.io/badge/Android-A4C639.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff)](https://github.com/expo/expo)
+[![supports web](https://img.shields.io/badge/Web-4285F4.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff)](https://github.com/expo/expo)
 
-1.  **Create the application.**
+## Get started
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+1. Install dependencies
 
-    ```shell
-    # Clone the template
-    npx degit chromaui/intro-storybook-react-native-template#main taskbox
-    ```
+   ```bash
+   npm install
+   ```
 
-1.  **Install the dependencies.**
+2. Start the app
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+   ```bash
+    npx expo start
+   ```
 
-    ```shell
-    # Navigate to the directory
-    cd taskbox/
+In the output, you'll find options to open the app in a
 
-    # Install the dependencies
-    yarn
-    ```
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-1.  **Open the source code and start editing!**
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-    Open the `taskbox` directory in your code editor of choice and building your first component!
+## Get started for testing
+[StoryBook](https://storybook.js.org/) is used for development testing, you can run tests with the following command:
 
-1.  **Browse your stories!**
-
-    Run `yarn storybook:ios` for ios or `yarn storybook:android` for android to see your component's stories on your emulator or device.
-
-## 🔎 What's inside?
-
-A quick look at the top-level files and directories included with this template.
-
-    .
-    ├── .gitignore
-    ├── LICENSE
-    ├── README.md
-    ├── App.jsx
-    ├── app.config.js
-    ├── yarn.lock
-    ├── package.json
-    ├── babel.config.js
-
-1.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
-
-2.  **`LICENSE`**: The template is licensed under the MIT licence.
-
-3.  **`README.md`**: A text file containing useful reference information about the project.
-
-4. **`App.jsx`**: This is the entry point of your app.  
-
-5. **`app.config.js`**: This is the configuration file for Expo that allows you to customize your app.
-
-6. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
+```bash
+npm run storybook
+```
+   
+### Learning about Storybook
 
 1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/).
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
 3. See our official documentation at [Storybook](https://storybook.js.org/).
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
