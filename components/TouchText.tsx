@@ -6,7 +6,7 @@ interface TouchButtonProps {
     onPress?: () => void
 }
 
-export const TouchButton = ({label, ...props}: TouchButtonProps) => {
+export const TouchText = ({label, ...props}: TouchButtonProps) => {
     return (
         <TouchableOpacity {...props}>
             <Text>{ label }</Text>

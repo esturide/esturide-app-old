@@ -17,6 +17,8 @@ const preview = {
         style={{
           flex: 1,
           padding: 8,
+          alignItems: 'center',
+          justifyContent: 'center'
         }}
       >
         <Story />

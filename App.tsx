@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
-import { TouchButton } from './components/TouchButton'
+import { TouchText } from '@/components/TouchText'
+import {ButtonAlert} from "@/components/ButtonAlert";
 import Constants from "expo-constants";
 
 function App() {
   return (
     <View style={styles.container}>
       <Text>Hello world</Text>
-      <TouchButton label="Touch me" onPress={() => console.log("Text is touched")}/>
+      <TouchText label="Touch me" onPress={() => console.log("Text is touched")}/>
+      <ButtonAlert label={"Alert"}/>
     </View>
   );
 }
